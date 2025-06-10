@@ -193,7 +193,7 @@ const App = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-5xl md:text-7xl font-extrabold leading-tight text-gray-900 mb-4 drop-shadow-lg" // 較深的文字
             >
-              您好，我是 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Alex J. Kim</span>
+              您好，我是 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">被被超人CEO</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 50 }}
@@ -210,7 +210,7 @@ const App = () => {
               className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold rounded-full shadow-lg hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 flex items-center justify-center mx-auto"
               onClick={() => scrollToSection('portfolio')}
             >
-              查看我的作品集 <ChevronsDown className="ml-2" size={20} />
+              查看被被總部超人們的作品集 <ChevronsDown className="ml-2" size={20} />
             </motion.button>
           </div>
         </section>
@@ -236,7 +236,7 @@ const App = () => {
                 className="md:w-1/3 mb-8 md:mb-0"
               >
                 <img
-                  src="https://placehold.co/400x400/cccccc/333333?text=您的個人資料" // 較淺的個人資料圖片
+                  src="http://localhost:3000/resized_400x400.png" // 較淺的個人資料圖片https://placehold.co/400x400/cccccc/333333?text=您的個人資料
                   alt="Profile"
                   className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover mx-auto border-4 border-purple-500 shadow-xl"
                 />
@@ -249,7 +249,7 @@ const App = () => {
                 className="md:w-2/3 text-lg leading-relaxed text-gray-700" // 較深的文字
               >
                 <p className="mb-4">
-                  您好！我是 Alex J. Kim，一位熱情的藝術家，熱愛透過各種媒介創作迷人的視覺效果。我的藝術之旅始於對圖像敘事的迷戀，這引導我探索數位繪畫、傳統插畫和概念設計。
+                  您好！我們是 被被超人總部，有3位喜愛創作酷酷人類，熱愛透過各種媒介創作迷人的視覺效果。我的藝術之旅始於對圖像敘事的迷戀，這引導我探索數位繪畫、傳統插畫和概念設計。
                 </p>
                 <p className="mb-4">
                   我擅長將想像世界帶入現實，創造獨特的角色，並設計沉浸式的環境。我的目標不僅是創造美觀的藝術，還要喚起觀看者的情感並激發驚嘆。
@@ -302,7 +302,7 @@ const App = () => {
               transition={{ duration: 0.6 }}
               className="text-4xl font-bold text-center mb-12 text-gray-900" // 較深的文字
             >
-              我的作品集
+              被被超人總部超人們的作品集
             </motion.h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project, index) => (
@@ -449,7 +449,7 @@ const App = () => {
               <Instagram size={32} />
             </motion.a>
           </div>
-          <p className="text-md">&copy; {new Date().getFullYear()} Alex J. Kim. 版權所有。</p>
+          <p className="text-md">&copy; {new Date().getFullYear()} 被被超人總部. 版權所有。</p>
         </div>
       </footer>
     </div>
