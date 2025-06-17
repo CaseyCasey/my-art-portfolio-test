@@ -193,7 +193,7 @@ const App = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-5xl md:text-7xl font-extrabold leading-tight text-gray-900 mb-4 drop-shadow-lg" // 較深的文字
             >
-              您好，我是 <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">被被超人CEO</span>
+              Hello, We are <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">the Super Quilt HQ heroes</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 50 }}
@@ -201,7 +201,7 @@ const App = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto" // 較深的文字
             >
-              透過生動的視覺效果和引人入勝的故事，將想像力化為現實。
+              We Craft Worlds from Pure Imagination.
             </motion.p>
             <motion.button
               initial={{ opacity: 0, scale: 0.8 }}
@@ -210,7 +210,7 @@ const App = () => {
               className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold rounded-full shadow-lg hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 flex items-center justify-center mx-auto"
               onClick={() => scrollToSection('portfolio')}
             >
-              查看被被總部超人們的作品集 <ChevronsDown className="ml-2" size={20} />
+              Dive into our creations! <ChevronsDown className="ml-2" size={20} />
             </motion.button>
           </div>
         </section>
@@ -225,7 +225,7 @@ const App = () => {
               transition={{ duration: 0.6 }}
               className="text-4xl font-bold text-center mb-12 text-gray-900" // 較深的文字
             >
-              關於我
+            About Us
             </motion.h2>
             <div className="flex flex-col md:flex-row items-center md:space-x-12">
               <motion.div
