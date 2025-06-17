@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, ChevronLeft, ChevronRight, ChevronsDown, Palette, Code, Star, Heart } from 'lucide-react';
-//import { Menu, X, Github, Linkedin, Instagram, Mail, ChevronLeft, ChevronRight, ChevronsDown, Palette, Code, Star, Heart, Award } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Instagram, Mail, ChevronLeft, ChevronRight, ChevronsDown, Palette, Code, Star, Heart, Award } from 'lucide-react';
 
 // 主要應用程式元件
 const App = () => {
