@@ -237,7 +237,7 @@ const App = () => {
                 className="md:w-1/3 mb-8 md:mb-0"
               >
                 <img
-                  src="http://localhost:3000/resized_400x400.png" // 較淺的個人資料圖片https://placehold.co/400x400/cccccc/333333?text=您的個人資料
+                  src="https://CaseyCasey.github.io/my-art-portfolio-test/resized_400x400.png" // 較淺的個人資料圖片https://placehold.co/400x400/cccccc/333333?text=您的個人資料
                   alt="Profile"
                   className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover mx-auto border-4 border-purple-500 shadow-xl"
                 />
@@ -423,7 +423,7 @@ const App = () => {
           </p>
           <div className="flex justify-center space-x-6 mb-6">
             <motion.a
-              href="https://github.com/yourusername" // 替換為您的 GitHub
+              href="https://github.com/CaseyCasey" // 替換為您的 GitHub
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 transition-colors duration-300" // 較深的文字
