@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "homepage": "https://CaseyCasey.github.io/my-art-portfolio-test",
+=======
+>>>>>>> parent of 198fd86 (deploy to Github)
 =======
 >>>>>>> parent of 198fd86 (deploy to Github)
   "dependencies": {
@@ -23,9 +26,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+=======
+    "eject": "react-scripts eject"
+>>>>>>> parent of 198fd86 (deploy to Github)
 =======
     "eject": "react-scripts eject"
 >>>>>>> parent of 198fd86 (deploy to Github)
