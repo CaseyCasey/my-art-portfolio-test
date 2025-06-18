@@ -236,7 +236,7 @@ const App = () => {
                 className="md:w-1/3 mb-8 md:mb-0"
               >
                 <img
-                  src="./resized_400x400.png" // 較淺的個人資料圖片https://placehold.co/400x400/cccccc/333333?text=您的個人資料
+                  src="/resized_400x400.png" // 較淺的個人資料圖片https://placehold.co/400x400/cccccc/333333?text=您的個人資料
                   alt="Profile"
                   className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover mx-auto border-4 border-purple-500 shadow-xl"
                 />
