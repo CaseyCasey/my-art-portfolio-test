@@ -75,11 +75,11 @@ const App = () => {
     },
     {
       id: 6,
-      title: "抽象波浪雕塑",
-      category: "3D設計",
+      title: "Mario Knight Adventure",
+      category: "Microsoft Makecode Arcade Project",
       thumbnail: "https://placehold.co/400x300/909090/333333?text=3D設計+6", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/a0a0a0/333333?text=波浪雕塑+全圖", // 較淺的完整圖片
-      description: "受海洋波浪流體動力學啟發的數位3D雕塑。這件藝術作品著重於形式和紋理，嘗試光線的反射和折射來模擬水的自然特性。",
+      description: "https://kitecrown.github.io/marioKnights/",
       tools: ["ZBrush", "Substance Painter"],
       year: "2023",
       inspiration: "自然現象的力量與優雅。",
@@ -255,7 +255,7 @@ const App = () => {
                   From our daily doodles and handmade creations to diving deep into game development, exciting things are always brewing here at HQ.
                 </p>
                 <p>
-                  Let's have fun together! We're all about sharing our passion and creativity with you.    
+                  Let's have fun together! We're all about sharing our passion and creativity with you.
                 </p>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                   <motion.div
@@ -263,28 +263,28 @@ const App = () => {
                     whileHover={{ scale: 1.03 }}
                   >
                     <Palette className="text-purple-600" size={28} /> {/* 對比度較深的紫色 */}
-                    <span className="font-semibold text-gray-800">數位繪畫</span> {/* 較深的文字 */}
+                    <span className="font-semibold text-gray-800">Drawing and Painting</span> {/* 較深的文字 */}
                   </motion.div>
                   <motion.div
                     className="flex items-center space-x-3 bg-gray-100 p-4 rounded-lg shadow-inner border border-gray-200" // 較淺的背景，較淺的邊框
                     whileHover={{ scale: 1.03 }}
                   >
                     <Code className="text-blue-600" size={28} /> {/* 對比度較深的藍色 */}
-                    <span className="font-semibold text-gray-800">概念藝術</span> {/* 較深的文字 */}
+                    <span className="font-semibold text-gray-800">Game Design</span> {/* 較深的文字 */}
                   </motion.div>
                   <motion.div
                     className="flex items-center space-x-3 bg-gray-100 p-4 rounded-lg shadow-inner border border-gray-200" // 較淺的背景，較淺的邊框
                     whileHover={{ scale: 1.03 }}
                   >
                     <Star className="text-yellow-600" size={28} /> {/* 對比度較深的黃色 */}
-                    <span className="font-semibold text-gray-800">傳統媒介</span> {/* 較深的文字 */}
+                    <span className="font-semibold text-gray-800">LINE Stickers Product</span> {/* 較深的文字 */}
                   </motion.div>
                   <motion.div
                     className="flex items-center space-x-3 bg-gray-100 p-4 rounded-lg shadow-inner border border-gray-200" // 較淺的背景，較淺的邊框
                     whileHover={{ scale: 1.03 }}
                   >
                     <Heart className="text-pink-600" size={28} /> {/* 對比度較深的粉紅色 */}
-                    <span className="font-semibold text-gray-800">角色設計</span> {/* 較深的文字 */}
+                    <span className="font-semibold text-gray-800">Our Recent Passions</span> {/* 較深的文字 */}
                   </motion.div>
                 </div>
               </motion.div>
@@ -302,7 +302,7 @@ const App = () => {
               transition={{ duration: 0.6 }}
               className="text-4xl font-bold text-center mb-12 text-gray-900" // 較深的文字
             >
-              被被超人總部超人們的作品集
+              Our Portfolio
             </motion.h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project, index) => (
@@ -375,14 +375,14 @@ const App = () => {
                   ))}
                 </div>
                 <p className="text-gray-600 text-md"> {/* 較深的文字 */}
-                  <span className="font-semibold text-gray-800">類別:</span> {selectedProject.category} {/* 較深的文字 */}
+                  <span className="font-semibold text-gray-800">Catalog:</span> {selectedProject.category} {/* 較深的文字 */}
                 </p>
                 <p className="text-gray-600 text-md"> {/* 較深的文字 */}
-                  <span className="font-semibold text-gray-800">年份:</span> {selectedProject.year} {/* 較深的文字 */}
+                  <span className="font-semibold text-gray-800">Created Year:</span> {selectedProject.year} {/* 較深的文字 */}
                 </p>
                 {selectedProject.inspiration && (
                   <p className="text-gray-600 text-md"> {/* 較深的文字 */}
-                    <span className="font-semibold text-gray-800">靈感:</span> {selectedProject.inspiration} {/* 較深的文字 */}
+                    <span className="font-semibold text-gray-800">Idea from:</span> {selectedProject.inspiration} {/* 較深的文字 */}
                   </p>
                 )}
 
@@ -418,7 +418,7 @@ const App = () => {
       <footer className="bg-gray-100 py-10 text-gray-600 text-center rounded-t-xl shadow-inner"> {/* 較淺的背景，較深的文字 */}
         <div className="container mx-auto px-4">
           <p className="mb-4 text-lg">
-            聯繫我：
+            Contact me at：
           </p>
           <div className="flex justify-center space-x-6 mb-6">
             <motion.a
@@ -449,7 +449,7 @@ const App = () => {
               <Instagram size={32} />
             </motion.a>
           </div>
-          <p className="text-md">&copy; {new Date().getFullYear()} SUPER QUILT HQ. All Rights Reserved.</p>
+          <p className="text-md">&copy; {new Date().getFullYear()} Super Quilt Girl HQ. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
