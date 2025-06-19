@@ -79,10 +79,10 @@ const App = () => {
       category: "Microsoft Makecode Arcade Project",
       thumbnail: "https://placehold.co/400x300/909090/333333?text=3D設計+6", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/a0a0a0/333333?text=波浪雕塑+全圖", // 較淺的完整圖片
-      description: "https://kitecrown.github.io/marioKnights/",
-      tools: ["ZBrush", "Substance Painter"],
+      description: "To view the game, please refer to https://kitecrown.github.io/marioKnights/",
+      tools: ["Microsoft Makecode Arcade","JavaScript"],
       year: "2023",
-      inspiration: "自然現象的力量與優雅。",
+      inspiration: "Mario Knight Adventure",
     },
   ];
 
