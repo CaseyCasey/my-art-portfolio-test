@@ -179,11 +179,11 @@ const App = () => {
       </motion.nav>
 
       <main className="pt-20"> {/* 由於固定導航欄而增加的內邊距 */}
-        {/* 英雄區塊 */}
+        {/* 英雄區塊 futureback https://placehold.co/1920x1080/e0e0e0/333333?text=Light+Art+Background */}
         <section
           id="hero"
           className="relative h-screen flex items-center justify-center text-center bg-cover bg-center"
-          style={{ backgroundImage: "url('https://placehold.co/1920x1080/e0e0e0/333333?text=Light+Art+Background')" }} // 較淺的背景
+          style={{ backgroundImage: "url('/my-art-portfolio-test/futureback.png')" }} // 較淺的背景
         >
           <div className="absolute inset-0 bg-white opacity-60"></div> {/* 較淺的覆蓋層 */}
           <div className="relative z-10 p-8 max-w-4xl mx-auto rounded-lg backdrop-blur-sm bg-white bg-opacity-70 shadow-2xl"> {/* 較淺的方框 */}
