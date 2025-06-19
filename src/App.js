@@ -128,7 +128,7 @@ const App = () => {
             whileHover={{ scale: 1.05 }}
             onClick={() => scrollToSection('hero')}
           >
-            ARTFOLIO
+            SUPER QUILT HQ
           </motion.a>
           <div className="hidden md:flex space-x-8">
             {/* 從導航連結中移除 'contact' */}
@@ -179,7 +179,7 @@ const App = () => {
       </motion.nav>
 
       <main className="pt-20"> {/* 由於固定導航欄而增加的內邊距 */}
-        {/* 英雄區塊 futureback https://placehold.co/1920x1080/e0e0e0/333333?text=Light+Art+Background */}
+        {/* 英雄區塊 https://placehold.co/1920x1080/e0e0e0/333333?text=Light+Art+Background */}
         <section
           id="hero"
           className="relative h-screen flex items-center justify-center text-center bg-cover bg-center"
@@ -193,7 +193,7 @@ const App = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-5xl md:text-7xl font-extrabold leading-tight text-gray-900 mb-4 drop-shadow-lg" // 較深的文字
             >
-              Hello, We are <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">the Super Quilt HQ heroes</span>
+              Hello, We are <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">heroes of the Super Quilt HQ</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 50 }}
@@ -236,7 +236,7 @@ const App = () => {
                 className="md:w-1/3 mb-8 md:mb-0"
               >
                 <img
-                  src= "/my-art-portfolio-test/resized_400x400.png" // 較淺的個人資料圖片https://placehold.co/400x400/cccccc/333333?text=您的個人資料
+                  src="/my-art-portfolio-test/resized_400x400.png" // 較淺的個人資料圖片https://placehold.co/400x400/cccccc/333333?text=您的個人資料
                   alt="Profile"
                   className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover mx-auto border-4 border-purple-500 shadow-xl"
                 />
@@ -246,16 +246,16 @@ const App = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
-                className="md:w-2/3 text-lg leading-relaxed text-gray-700" // 較深的文字
+                className="md:w-2/3 text-lg leading-relaxed text-gray-700" // 較深的文字 
               >
                 <p className="mb-4">
-                  您好！我們是 被被超人總部，有3位喜愛創作酷酷人類，熱愛透過各種媒介創作迷人的視覺效果。我的藝術之旅始於對圖像敘事的迷戀，這引導我探索數位繪畫、傳統插畫和概念設計。
+                  Hey there! We're the humans behind Super Quilt Girl Headquarters, and we love making up fun stuff.
                 </p>
                 <p className="mb-4">
-                  我擅長將想像世界帶入現實，創造獨特的角色，並設計沉浸式的環境。我的目標不僅是創造美觀的藝術，還要喚起觀看者的情感並激發驚嘆。
+                  From our daily doodles and handmade creations to diving deep into game development, exciting things are always brewing here at HQ.
                 </p>
                 <p>
-                  憑藉敏銳的洞察力和不斷學習的精神，我不斷突破自己的藝術能力界限。我相信藝術有能力連結、超越和轉化。
+                  Let's have fun together! We're all about sharing our passion and creativity with you.    
                 </p>
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                   <motion.div
@@ -449,7 +449,7 @@ const App = () => {
               <Instagram size={32} />
             </motion.a>
           </div>
-          <p className="text-md">&copy; {new Date().getFullYear()} 被被超人總部. 版權所有。</p>
+          <p className="text-md">&copy; {new Date().getFullYear()} SUPER QUILT HQ. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
