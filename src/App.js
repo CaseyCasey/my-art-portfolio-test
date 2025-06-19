@@ -128,7 +128,7 @@ const App = () => {
             whileHover={{ scale: 1.05 }}
             onClick={() => scrollToSection('hero')}
           >
-            SUPER QUILT HQ
+            Super Quilt Girl HQ
           </motion.a>
           <div className="hidden md:flex space-x-8">
             {/* 從導航連結中移除 'contact' */}
