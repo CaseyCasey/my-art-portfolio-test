@@ -322,11 +322,11 @@ const App = () => {
                   whileHover={{ scale: 1.03, transition: { duration: 0.2 } }}
                   onClick={() => setSelectedProject(project)}
                 >
-                  <a href={project.link} target="_blank" rel="noopener noreferrer"><img
+                  <img
                     src={project.thumbnail}
                     alt={project.title}
                     className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-                  /></a>
+                  />
                   {/* 懸停時覆蓋層保持深色以形成對比 */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                     <div className="text-white">
@@ -367,11 +367,11 @@ const App = () => {
                 </button>
 
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 text-center">{selectedProject.title}</h3> {/* 較深的文字 */}
-                <img
+                <a href={selectedProject.link} target="_blank" rel="noopener noreferrer"><img
                   src={selectedProject.fullImage}
                   alt={selectedProject.title}
                   className="w-full h-auto object-contain rounded-lg mb-6 border border-gray-300" // 較淺的邊框
-                />
+                /></a>
                 <p className="text-gray-700 text-lg mb-4 leading-relaxed">{selectedProject.description}</p> {/* 較深的文字 */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {selectedProject.tools.map((tool, idx) => (
