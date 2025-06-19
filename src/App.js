@@ -25,6 +25,7 @@ const App = () => {
       thumbnail: "https://placehold.co/400x300/e0e0e0/333333?text=數位藝術+1", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/f0f0f0/333333?text=抽象形式+全圖", // 較淺的完整圖片
       description: "一幅動態的構圖，探索數位創作中鮮豔色彩和流暢形狀的相互作用。這件作品旨在透過非具象的形式喚起運動和和諧感。柔和的漸變和銳利的線條提供了對比和深度。",
+      link: "https://kitecrown.github.io/marioKnights/",
       tools: ["Procreate", "Adobe Photoshop"],
       year: "2023",
       inspiration: "受水流運動和抽象表現主義的啟發。",
@@ -36,6 +37,7 @@ const App = () => {
       thumbnail: "https://placehold.co/400x300/d0d0d0/333333?text=插畫+2", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/e0e0e0/333333?text=不夜城+全圖", // 較淺的完整圖片
       description: "一幅繁忙夜間城市景觀的詳細插畫，著重於光影的相互作用以及現代建築的紋理。雨水濕潤的街道反映出霓虹燈招牌，增添了城市氛圍。",
+      link: "https://kitecrown.github.io/marioKnights/",
       tools: ["Adobe Illustrator", "Clip Studio Paint"],
       year: "2022",
       inspiration: "捕捉城市環境的活力與孤寂。",
@@ -47,6 +49,7 @@ const App = () => {
       thumbnail: "https://placehold.co/400x300/c0c0c0/333333?text=油畫+3", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/d0d0d0/333333?text=寧靜肖像+全圖", // 較淺的完整圖片
       description: "一幅傳統油畫肖像，捕捉了片刻的沉思。筆觸強調了紋理和光線在主體臉上細微的變化，傳達出平靜和深度的感覺。",
+      link: "https://kitecrown.github.io/marioKnights/",
       tools: ["油畫顏料", "畫布"],
       year: "2024",
       inspiration: "透過古典肖像畫探索情感深度。",
@@ -58,6 +61,7 @@ const App = () => {
       thumbnail: "https://placehold.co/400x300/b0b0b0/333333?text=素描本+4", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/c0c0c0/333333?text=植物與動物+全圖", // 較淺的完整圖片
       description: "一系列快速素描，著重於自然元素——多樣的植物生命和動物。這些研究強調以富有表現力的線條捕捉形式和運動，提供對觀察過程的洞察。",
+      link: "https://kitecrown.github.io/marioKnights/",
       tools: ["石墨鉛筆", "素描本"],
       year: "2023",
       inspiration: "直接觀察自然。",
@@ -69,6 +73,7 @@ const App = () => {
       thumbnail: "https://placehold.co/400x300/a0a0a0/333333?text=概念藝術+5", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/b0b0b0/333333?text=科幻殖民地+全圖", // 較淺的完整圖片
       description: "未來月球殖民地的概念藝術作品，描繪了建築設計、環境元素和照明。這件作品探索了人類在極端外星環境中居住的挑戰和美感。",
+      link: "https://kitecrown.github.io/marioKnights/",
       tools: ["Blender", "Adobe Photoshop"],
       year: "2024",
       inspiration: "對未來太空探索和人類智慧的憧憬。",
@@ -80,7 +85,8 @@ const App = () => {
       thumbnail: "https://placehold.co/400x300/909090/333333?text=3D設計+6", // 較淺的縮圖
       fullImage: "https://placehold.co/800x600/a0a0a0/333333?text=波浪雕塑+全圖", // 較淺的完整圖片
       description: "To view the game, please refer to https://kitecrown.github.io/marioKnights/",
-      tools: ["Microsoft Makecode Arcade","JavaScript"],
+      link: "https://kitecrown.github.io/marioKnights/",
+      tools: ["Microsoft Makecode Arcade", "JavaScript"],
       year: "2023",
       inspiration: "Mario Knight Adventure",
     },
@@ -316,11 +322,11 @@ const App = () => {
                   whileHover={{ scale: 1.03, transition: { duration: 0.2 } }}
                   onClick={() => setSelectedProject(project)}
                 >
-                  <img
+                  <a href={project.link} target="_blank" rel="noopener noreferrer"><img
                     src={project.thumbnail}
                     alt={project.title}
                     className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
+                  /></a>
                   {/* 懸停時覆蓋層保持深色以形成對比 */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
                     <div className="text-white">
