@@ -70,8 +70,8 @@ const App = () => {
       id: 5,
       title: "科幻概念藝術：殖民地",
       category: "概念藝術",
-      thumbnail: "https://placehold.co/400x300/a0a0a0/333333?text=概念藝術+5", // 較淺的縮圖
-      fullImage: "https://placehold.co/800x600/b0b0b0/333333?text=科幻殖民地+全圖", // 較淺的完整圖片
+       thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
+      fullImage: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_800x600.png", // 較淺的完整圖片
       description: "未來月球殖民地的概念藝術作品，描繪了建築設計、環境元素和照明。這件作品探索了人類在極端外星環境中居住的挑戰和美感。",
       link: "https://kitecrown.github.io/marioKnights/",
       tools: ["Blender", "Adobe Photoshop"],
@@ -82,8 +82,8 @@ const App = () => {
       id: 6,
       title: "Mario Knight Adventure",
       category: "Microsoft Makecode Arcade Project",
-      thumbnail: "https://placehold.co/400x300/909090/333333?text=3D設計+6", // 較淺的縮圖
-      fullImage: "https://placehold.co/800x600/a0a0a0/333333?text=波浪雕塑+全圖", // 較淺的完整圖片
+      thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
+      fullImage: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_800x600.png", // 較淺的完整圖片
       description: "To view the game, please refer to https://kitecrown.github.io/marioKnights/",
       link: "https://kitecrown.github.io/marioKnights/",
       tools: ["Microsoft Makecode Arcade", "JavaScript"],
