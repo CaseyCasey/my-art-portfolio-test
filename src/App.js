@@ -22,8 +22,8 @@ const App = () => {
       id: 1,
       title: "動態抽象形式",
       category: "數位繪畫",
-      thumbnail: "https://placehold.co/400x300/e0e0e0/333333?text=數位藝術+1", // 較淺的縮圖
-      fullImage: "https://placehold.co/800x600/f0f0f0/333333?text=抽象形式+全圖", // 較淺的完整圖片
+      thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
+      fullImage: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_800x600.png", // 較淺的完整圖片
       description: "一幅動態的構圖，探索數位創作中鮮豔色彩和流暢形狀的相互作用。這件作品旨在透過非具象的形式喚起運動和和諧感。柔和的漸變和銳利的線條提供了對比和深度。",
       link: "https://kitecrown.github.io/marioKnights/",
       tools: ["Procreate", "Adobe Photoshop"],
@@ -34,8 +34,8 @@ const App = () => {
       id: 2,
       title: "城市景觀：不夜城",
       category: "插畫",
-      thumbnail: "https://placehold.co/400x300/d0d0d0/333333?text=插畫+2", // 較淺的縮圖
-      fullImage: "https://placehold.co/800x600/e0e0e0/333333?text=不夜城+全圖", // 較淺的完整圖片
+      thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
+      fullImage: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_800x600.png", // 較淺的完整圖片
       description: "一幅繁忙夜間城市景觀的詳細插畫，著重於光影的相互作用以及現代建築的紋理。雨水濕潤的街道反映出霓虹燈招牌，增添了城市氛圍。",
       link: "https://kitecrown.github.io/marioKnights/",
       tools: ["Adobe Illustrator", "Clip Studio Paint"],
@@ -46,8 +46,8 @@ const App = () => {
       id: 3,
       title: "寧靜的肖像",
       category: "油畫",
-      thumbnail: "https://placehold.co/400x300/c0c0c0/333333?text=油畫+3", // 較淺的縮圖
-      fullImage: "https://placehold.co/800x600/d0d0d0/333333?text=寧靜肖像+全圖", // 較淺的完整圖片
+      thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
+      fullImage: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_800x600.png", // 較淺的完整圖片
       description: "一幅傳統油畫肖像，捕捉了片刻的沉思。筆觸強調了紋理和光線在主體臉上細微的變化，傳達出平靜和深度的感覺。",
       link: "https://kitecrown.github.io/marioKnights/",
       tools: ["油畫顏料", "畫布"],
@@ -58,8 +58,8 @@ const App = () => {
       id: 4,
       title: "植物與動物素描本",
       category: "傳統素描",
-      thumbnail: "https://placehold.co/400x300/b0b0b0/333333?text=素描本+4", // 較淺的縮圖
-      fullImage: "https://placehold.co/800x600/c0c0c0/333333?text=植物與動物+全圖", // 較淺的完整圖片
+      thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
+      fullImage: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_800x600.png", // 較淺的完整圖片
       description: "一系列快速素描，著重於自然元素——多樣的植物生命和動物。這些研究強調以富有表現力的線條捕捉形式和運動，提供對觀察過程的洞察。",
       link: "https://kitecrown.github.io/marioKnights/",
       tools: ["石墨鉛筆", "素描本"],
@@ -70,7 +70,7 @@ const App = () => {
       id: 5,
       title: "科幻概念藝術：殖民地",
       category: "概念藝術",
-       thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
+      thumbnail: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_400x300.png", // 較淺的縮圖
       fullImage: "https://caseycasey.github.io/my-art-portfolio-test/makecode01_800x600.png", // 較淺的完整圖片
       description: "未來月球殖民地的概念藝術作品，描繪了建築設計、環境元素和照明。這件作品探索了人類在極端外星環境中居住的挑戰和美感。",
       link: "https://kitecrown.github.io/marioKnights/",
@@ -189,7 +189,7 @@ const App = () => {
         <section
           id="hero"
           className="relative h-screen flex items-center justify-center text-center bg-cover bg-center"
-          style={{ backgroundImage: "url('/my-art-portfolio-test/futureback.png')" }} // 較淺的背景
+          style={{ backgroundImage: "url('/my-art-portfolio-test/Good3_1920x1080.png')" }} // 較淺的背景
         >
           <div className="absolute inset-0 bg-white opacity-60"></div> {/* 較淺的覆蓋層 */}
           <div className="relative z-10 p-8 max-w-4xl mx-auto rounded-lg backdrop-blur-sm bg-white bg-opacity-70 shadow-2xl"> {/* 較淺的方框 */}
